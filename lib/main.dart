@@ -29,8 +29,11 @@ class MyApp extends StatelessWidget {
             
           ),
         ),
-      bottomNavigationBar: BottomAppBar(
-        child: ,
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: '홈'),
+          BottomNavigationBarItem(icon: Icon(Icons.my_library_books), label: '마이페이지'),
+        ]
       ),
     );
 
