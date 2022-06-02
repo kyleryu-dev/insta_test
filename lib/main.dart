@@ -21,7 +21,17 @@ class MyApp extends StatelessWidget {
         actions: [Icon(Icons.add_box_outlined)]
       ),
       body: 
-        Text('인스타그램')
+        Theme(
+          data: ThemeData(
+
+          ),
+          child: Container(
+            
+          ),
+        ),
+      bottomNavigationBar: BottomAppBar(
+        child: ,
+      ),
     );
 
   }
